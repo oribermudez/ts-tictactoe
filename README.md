@@ -2,7 +2,6 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green)
 ![TypeScript](https://img.shields.io/badge/TypeScript-✔-blue)
 
@@ -10,8 +9,11 @@ A simple Tic-Tac-Toe game you can play entirely in the terminal, built with Type
 
 ## 🧠 Features
 ✔ Two-player mode (`X` vs `O`)
+
 ✔ Fully interactive CLI
+
 ✔ Input validation
+
 ✔ Board printed after each move
 
 ---
@@ -49,23 +51,23 @@ npm start
 
 ## 🎯 How to play
 
-Play directly from the terminal
+- Play directly from the terminal
 
-Players alternate placing their symbol: X or O
+- Players alternate placing their symbol: X or O
 
-Choose a valid empty cell when prompted
+- Choose a valid empty cell when prompted
 
-First player to get 3 in a row wins!
+- First player to get 3 in a row wins!
 
-If the board is full with no winner → Draw 🤝
+- If the board is full with no winner → Draw 🤝
 
 🧩 Example of how the board may display:
 
- X | O | 3
------------
- 4 | X | O
------------
- 7 | 8 | X   → Player X wins!
+    X | O | 3
+    ----------
+    4 | X | O
+    -----------
+    7 | 8 | X   → Player X wins!
 
 
 ## 📂 Project Structure
