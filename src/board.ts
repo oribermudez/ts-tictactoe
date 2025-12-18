@@ -20,7 +20,6 @@ export function isInBounds({ row, col }: Coords): boolean {
 }
 
 export function isCellEmpty(board: Board, { row, col }: Coords): boolean {
-  // como Board es 3x3 fijo, esto es seguro si coords está en bounds
   return board[row][col] === null
 }
 
