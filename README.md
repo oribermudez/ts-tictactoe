@@ -73,17 +73,17 @@ npm start
 ## 📂 Project Structure
 
 src/<br />
-├── board.ts    # Board creation, rendering, and win logic<br />
-├── game.ts     # Main game loop and flow<br />
-├── io.ts       # Readline input handling<br />
-├── rules.ts    # Game rules output<br />
-├── types.ts    # Shared types and enums<br />
-└── index.ts    # Application entry point<br />
+├── board.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Board creation, rendering, and win logic<br />
+├── game.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Main game loop and flow<br />
+├── io.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Readline input handling<br />
+├── rules.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Game rules output<br />
+├── types.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Shared types and enums<br />
+└── index.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Application entry point<br />
 
-package.json     # Scripts & dependencies<br />
-tsconfig.json    # TypeScript configuration<br />
-.gitignore       # Ignored files (node_modules, etc.)<br />
-README.md        # Project documentation<br />
+package.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Scripts & dependencies<br />
+tsconfig.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# TypeScript configuration<br />
+.gitignore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Ignored files (node_modules, etc.)<br />
+README.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Project documentation<br />
 
 
 
