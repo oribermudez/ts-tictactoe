@@ -8,13 +8,13 @@
 A simple Tic-Tac-Toe game you can play entirely in the terminal, built with TypeScript.
 
 ## 🧠 Features
-✔ Two-player mode (`X` vs `O`)
-
-✔ Fully interactive CLI
-
-✔ Input validation
-
-✔ Board printed after each move
+✔ Two-player mode (`X` vs `O`)  
+✔ Fully interactive CLI using Node `readline`  
+✔ Strong type safety with `enum` and tuple-based board  
+✔ Input validation (bounds & occupied cells)  
+✔ Board printed after each move  
+✔ Winner and draw detection  
+✔ Modular code structure (separation of concerns)
 
 ---
 
@@ -24,7 +24,7 @@ A simple Tic-Tac-Toe game you can play entirely in the terminal, built with Type
 |------|---------|
 | Node.js | Runtime environment |
 | TypeScript | Logic + Type safety |
-| Readline / CLI | Player input |
+| Readline | Terminal input/output |
 
 ---
 
@@ -61,23 +61,30 @@ npm start
 
 - If the board is full with no winner → Draw 🤝
 
-🧩 Example of how the board may display:
+🧩 Game Preview:
 
-    X | O | 3
-    ----------
-    4 | X | O
-    -----------
-    7 | 8 | X   → Player X wins!
+<img width="352" height="196" alt="Captura de pantalla 2025-12-17 a la(s) 6 04 37 p m" src="https://github.com/user-attachments/assets/a4183bd5-cc25-464f-a5ca-5e2eed02d265" /><br />
+
+<img width="371" height="193" alt="Captura de pantalla 2025-12-17 a la(s) 6 04 49 p m" src="https://github.com/user-attachments/assets/f46be86d-9ca3-40a6-91d4-c1104aa851f2" /><br />
+
+<img width="353" height="186" alt="Captura de pantalla 2025-12-17 a la(s) 6 04 57 p m" src="https://github.com/user-attachments/assets/fa1ae941-1811-4d00-b728-58d0bbfbb26a" /><br />
 
 
 ## 📂 Project Structure
 
-src/
-  index.ts       # Entry point and game loop
-package.json     # Scripts + dependencies
-tsconfig.json    # TS configuration
-.gitignore       # Excluding node_modules, etc.
-README.md        # You're reading this :)
+src/<br />
+├── board.ts    # Board creation, rendering, and win logic<br />
+├── game.ts     # Main game loop and flow<br />
+├── io.ts       # Readline input handling<br />
+├── rules.ts    # Game rules output<br />
+├── types.ts    # Shared types and enums<br />
+└── index.ts    # Application entry point<br />
+
+package.json     # Scripts & dependencies<br />
+tsconfig.json    # TypeScript configuration<br />
+.gitignore       # Ignored files (node_modules, etc.)<br />
+README.md        # Project documentation<br />
+
 
 
 ## 🛠 Development
